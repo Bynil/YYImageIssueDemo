@@ -9,6 +9,4 @@ target 'YYImageIssueDemo' do
   pod 'YYImage'
   pod 'YYImage/WebP'
   pod 'YYWebImage'
-  
-  pod 'Reveal-SDK', :configurations => ['Debug']
 end
