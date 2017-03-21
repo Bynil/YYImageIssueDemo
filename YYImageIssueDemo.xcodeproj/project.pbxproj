@@ -13,9 +13,13 @@
 		C256C7211E8114AC00374B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C256C71F1E8114AC00374B30 /* Main.storyboard */; };
 		C256C7231E8114AC00374B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C256C7221E8114AC00374B30 /* Assets.xcassets */; };
 		C256C7261E8114AC00374B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C256C7241E8114AC00374B30 /* LaunchScreen.storyboard */; };
+		C256C7321E81253D00374B30 /* AnimatetPicsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C256C7311E81253D00374B30 /* AnimatetPicsTableViewController.m */; };
+		C256C7351E81262600374B30 /* AnimationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C256C7341E81262600374B30 /* AnimationTableViewCell.m */; };
+		C820651B57EDCC9B9787DA40 /* libPods-YYImageIssueDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C607B1437154B53B53CFFA78 /* libPods-YYImageIssueDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		029D4BD869242FF3757FB3D1 /* Pods-YYImageIssueDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYImageIssueDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYImageIssueDemo/Pods-YYImageIssueDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C256C7131E8114AC00374B30 /* YYImageIssueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYImageIssueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C256C7171E8114AC00374B30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C256C7191E8114AC00374B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,12 @@
 		C256C7221E8114AC00374B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C256C7251E8114AC00374B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C256C7271E8114AC00374B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C256C7301E81253D00374B30 /* AnimatetPicsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatetPicsTableViewController.h; sourceTree = "<group>"; };
+		C256C7311E81253D00374B30 /* AnimatetPicsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatetPicsTableViewController.m; sourceTree = "<group>"; };
+		C256C7331E81262600374B30 /* AnimationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableViewCell.h; sourceTree = "<group>"; };
+		C256C7341E81262600374B30 /* AnimationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableViewCell.m; sourceTree = "<group>"; };
+		C607B1437154B53B53CFFA78 /* libPods-YYImageIssueDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYImageIssueDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A033219BA923BB1C3E9098 /* Pods-YYImageIssueDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYImageIssueDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYImageIssueDemo/Pods-YYImageIssueDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C820651B57EDCC9B9787DA40 /* libPods-YYImageIssueDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54737C963285A03E037BE1AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A033219BA923BB1C3E9098 /* Pods-YYImageIssueDemo.debug.xcconfig */,
+				029D4BD869242FF3757FB3D1 /* Pods-YYImageIssueDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6416A6100D2CCAC8B9F9D156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C607B1437154B53B53CFFA78 /* libPods-YYImageIssueDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C256C70A1E8114AC00374B30 = {
 			isa = PBXGroup;
 			children = (
 				C256C7151E8114AC00374B30 /* YYImageIssueDemo */,
 				C256C7141E8114AC00374B30 /* Products */,
+				54737C963285A03E037BE1AD /* Pods */,
+				6416A6100D2CCAC8B9F9D156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +92,15 @@
 				C256C71A1E8114AC00374B30 /* AppDelegate.m */,
 				C256C71C1E8114AC00374B30 /* ViewController.h */,
 				C256C71D1E8114AC00374B30 /* ViewController.m */,
+				C256C7301E81253D00374B30 /* AnimatetPicsTableViewController.h */,
+				C256C7311E81253D00374B30 /* AnimatetPicsTableViewController.m */,
 				C256C71F1E8114AC00374B30 /* Main.storyboard */,
 				C256C7221E8114AC00374B30 /* Assets.xcassets */,
 				C256C7241E8114AC00374B30 /* LaunchScreen.storyboard */,
 				C256C7271E8114AC00374B30 /* Info.plist */,
 				C256C7161E8114AC00374B30 /* Supporting Files */,
+				C256C7331E81262600374B30 /* AnimationTableViewCell.h */,
+				C256C7341E81262600374B30 /* AnimationTableViewCell.m */,
 			);
 			path = YYImageIssueDemo;
 			sourceTree = "<group>";
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C256C72A1E8114AC00374B30 /* Build configuration list for PBXNativeTarget "YYImageIssueDemo" */;
 			buildPhases = (
+				6BFC072BDFE8DE6C4657C17A /* [CP] Check Pods Manifest.lock */,
 				C256C70F1E8114AC00374B30 /* Sources */,
 				C256C7101E8114AC00374B30 /* Frameworks */,
 				C256C7111E8114AC00374B30 /* Resources */,
+				F859A7A21AEBBB36E50DA8AB /* [CP] Embed Pods Frameworks */,
+				6754F915766851808901E2F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +183,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6754F915766851808901E2F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYImageIssueDemo/Pods-YYImageIssueDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFC072BDFE8DE6C4657C17A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F859A7A21AEBBB36E50DA8AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYImageIssueDemo/Pods-YYImageIssueDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C256C70F1E8114AC00374B30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,7 +238,9 @@
 			files = (
 				C256C71E1E8114AC00374B30 /* ViewController.m in Sources */,
 				C256C71B1E8114AC00374B30 /* AppDelegate.m in Sources */,
+				C256C7351E81262600374B30 /* AnimationTableViewCell.m in Sources */,
 				C256C7181E8114AC00374B30 /* main.m in Sources */,
+				C256C7321E81253D00374B30 /* AnimatetPicsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +358,12 @@
 		};
 		C256C72B1E8114AC00374B30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A033219BA923BB1C3E9098 /* Pods-YYImageIssueDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V8XM7G4L99;
 				INFOPLIST_FILE = YYImageIssueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gexiao.YYImageIssueDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +372,12 @@
 		};
 		C256C72C1E8114AC00374B30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029D4BD869242FF3757FB3D1 /* Pods-YYImageIssueDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V8XM7G4L99;
 				INFOPLIST_FILE = YYImageIssueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.gexiao.YYImageIssueDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +403,7 @@
 				C256C72C1E8114AC00374B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
